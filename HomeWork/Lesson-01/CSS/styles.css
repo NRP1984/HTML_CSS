@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  background: cornflowerblue;
+  color: darkblue;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  color: darkblue;
+}
+
+img {
+  width: 200px;
+}
+
+.wrap {
+  background: skyblue;
+  width: 100%;
+  margin-bottom: 0;
+}
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+  text-align: justify;
+  margin: 0 30px 0 30px;
+}
+
+.characters {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.characters ul li {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.homepage {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}

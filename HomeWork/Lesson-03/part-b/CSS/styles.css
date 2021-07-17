@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: bold;
+  color: darkblue;
+  text-align: center;
+}
+
+.wrap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu_top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  background: silver;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.menu_top a {
+  margin: 0 20px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: blueviolet;
+  text-align: right;
+}
+
+.button {
+  margin: 0 auto 0 50px;
+  width: 300px;
+}
+
+.main_advertising {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 450px;
+  box-sizing: border-box;
+  position: relative;
+  top: 100px;
+}
+
+.main_advertising img {
+  margin: 0;
+  width: 100%;
+}
+
+.secondary_advertising {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+
+.sec_adv_img {
+  margin: 30px;
+  width: 342px;
+  height: 342px;
+}
+
+.sec_adv_img img {
+  margin: 0;
+}
+
+.hot_offers-01 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -150px;
+}
+
+.hot_offers-02 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -100px;
+}
+
+.h_o-01,
+.h_o-02 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_h_o-01 {
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_h_o-01 img {
+  margin: 0;
+  width: 300px;
+}
+
+.sub_h_o-01 p {
+  margin-top: 10px;
+  color: darkblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.sub_h_o-02 {
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_h_o-02 img {
+  margin: 0;
+}
+
+.sub_h_o-02 p {
+  margin-top: 10px;
+  width: 500px;
+  color: darkblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.slider {
+  margin: auto;
+  padding: 0;
+  width: 70%;
+}
+
+.daily_offer {
+  margin: 50px 0 50px 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: purple;
+}
+
+.text {
+  margin: 0 0 0 30px;
+  padding: 0;
+  width: 400px;
+}
+
+.text p {
+  margin: 0;
+  padding: 0;
+  color: darkblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  background: #4c4c4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_network {
+  margin: 20px;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_network:hover {
+  margin: 20px;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border: 2px solid silver;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_network a {
+  margin: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.social_network a:hover {
+  margin: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: silver;
+}
